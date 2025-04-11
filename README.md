@@ -1,40 +1,51 @@
-# ⚡️ EduZu Poké SPA
+# 🎮 EduZu Poké SPA
 
-Welcome to **EduZu Poké SPA**! A fun and dynamic **Single Page Application (SPA)** built with **React + Vite** that lets you explore Pokémon, view their types, and save your favorites as your own Pokédex. ✨
+Welcome to **EduZu Poké SPA**, a single-page application built with **React + Vite** that allows you to explore, favorite and manage your own list of Pokémon.  
+This project consumes data from the [PokéAPI](https://pokeapi.co/) and features a retro-style responsive UI.
 
----
-
-## 🎮 Features
-
-- 🔍 **Explore Pokémon** using data from [PokeAPI](https://pokeapi.co)
-- ❤️ **Add and remove favorite Pokémon**
-- ⚡️ **SPA without page reloads**
-- 📱 **Fully responsive** for mobile and desktop
-- 🌐 **Deployed on Netlify**
+🔗 **Live Demo**: [eduzu-poke.netlify.app](https://eduzu-poke.netlify.app)
 
 ---
 
+## ✨ Features
 
-## 🚀 Technologies Used
-
-- ⚛️ **React**
-- ⚡️ **Vite**
-- 🎨 **Bootstrap 5** + custom styles
-- 🌐 **Netlify** (for deployment)
-- 📦 **PokeAPI** (for fetching Pokémon data)
+- ✅ Explore Pokémon from the PokéAPI
+- ❤️ Add or remove Pokémon from your favorites
+- 💾 Favorites persist in `localStorage`
+- 📱 Fully responsive design
+- 🎮 Retro interface with custom styles and pixel fonts
 
 ---
 
-## 🛠️ Run Locally
+## 🖼️ Preview
+
+![App Screenshot](/src/img/preview.png)
+
+---
+
+## 🛠️ Technologies
+
+- React
+- Vite
+- Bootstrap 5
+- PokéAPI
+- localStorage
+- Netlify (for deployment)
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-# Clone the repository
-git clone https://github.com/EduZu32/poke-spa.git
-cd poke-spa
+# Clone the repo
+git clone https://github.com/your-username/eduzu-poke-spa.git
+
+# Enter the project
+cd eduzu-poke-spa
 
 # Install dependencies
 npm install
 
-# Start the development server
+# Start development server
 npm run dev
 ```
