@@ -22,9 +22,9 @@ export default function PokemonList() {
   return (
 <div className="container">
   <h2 className="pokemon-title">
-    <img src="/src/img/pokeball2.0.png" alt="pokeball" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="pokeball" width="20" />
     Pokémon disponibles
-    <img src="/src/img/pokeball2.0.png" alt="pokeball" />
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="pokeball" width="20" />
   </h2>
 
   <div className="pokemon-grid">
