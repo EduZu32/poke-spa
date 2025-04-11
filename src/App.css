@@ -47,15 +47,6 @@
   }
 }
 
-/*Card*/
-.pokemon-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  justify-content: center;
-  padding: 2rem 1rem;
-}
-
 /* ADD*/
 .fav-btn {
   width: 100%;
@@ -94,6 +85,7 @@
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
   margin-top: auto;
+  flex-shrink: 0;
 }
 
 .custom-footer span {
@@ -110,6 +102,9 @@
   vertical-align: middle;
 }
 
+.custom-footer .container {
+  padding: 0 1rem;
+}
 /*Boton de cargar*/
 
 .pokemon-button {
@@ -136,4 +131,42 @@
 .pokemon-button:active {
   transform: scale(0.98);
   box-shadow: inset 0 4px #174ea6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .welcome-box {
+    padding: 2rem; /* Ajusta los márgenes en dispositivos móviles */
+  }
+
+  .display-5 {
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+
+  .btn-lg {
+    font-size: 1rem; /* Botones más pequeños en móviles */
+  }
+
+  .pokemon-title {
+    font-size: 1.3rem; /* Título de la sección Pokémon más pequeño */
+  }
+}
+
+@media (max-width: 576px) {
+  .d-flex.flex-column {
+    flex-direction: column; /* Asegura que los botones se apilen en dispositivos pequeños */
+  }
+
+  .my-4 {
+    margin-top: 2rem; /* Añadir algo de espacio entre los elementos */
+    margin-bottom: 2rem;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }

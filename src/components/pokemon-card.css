@@ -1,6 +1,8 @@
 .pokemon-card {
-  width: 260px;
+  width: 100%;
+  max-width: 260px; /* límite máximo */
   height: 370px;
+  margin: 0 auto; /* asegúrate de que se centre */
   background: linear-gradient(to bottom, #fff6d5, #ffec9e);
   border: 3px solid #ffcb05;
   border-radius: 12px;

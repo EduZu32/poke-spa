@@ -27,11 +27,13 @@ export default function PokemonList() {
     <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="pokeball" width="20" />
   </h2>
 
-  <div className="pokemon-grid">
+  <div className="row">
     {pokemon.map((p) => (
-      <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" key={p.name}>
-        <PokemonCard name={p.name} image={p.image} types={p.types} />
-      </div>
+     <div className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center mb-4" key={p.name}>
+     <PokemonCard name={p.name} image={p.image} types={p.types} />
+   </div>
+   
+    
     ))}
   </div>
 

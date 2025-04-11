@@ -1,4 +1,5 @@
 // src/App.jsx
+// src/App.jsx
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import PokemonList from './pages/PokemonList';
 import FavoritesPage from './pages/Favorites';
@@ -24,7 +25,7 @@ function App() {
         </NavBar>
 
         {/* MAIN */}
-        <main className="flex-fill">
+        <main className="flex-grow-1">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/pokemon" element={<PokemonList />} />
@@ -34,17 +35,17 @@ function App() {
 
         {/* FOOTER */}
         <footer className="custom-footer">
-  <div className="container">
-    &copy; {new Date().getFullYear()} EduZu Poké.
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="pokeball" />
-      ¡Hazte con todos!
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="pokeball" />
-  </div>
-</footer>
-
+          <div className="container">
+            &copy; {new Date().getFullYear()} EduZu Poké.
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="pokeball" />
+            ¡Hazte con todos!
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="pokeball" />
+          </div>
+        </footer>
       </div>
     </Router>
   );
 }
 
 export default App;
+

@@ -61,3 +61,23 @@
   transform: scale(1.05);
   box-shadow: 0 0 6px #fff;
 }
+@media (max-width: 576px) {
+  .navbar-title {
+    font-size: 0.7rem; /* más pequeño en pantallas pequeñas */
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
