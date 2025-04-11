@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.pokemon-navbar {
+  background: linear-gradient(to right, #fcd800, #ffa500);
+  padding: 25px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Press Start 2P", cursive;
+  border-bottom: 3px solid #2a75bb;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-title {
+  font-size: 1rem;
+  color: #2a75bb;
+  letter-spacing: 1px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px;
+}
+
+.pokemon-btn {
+  font-family: "Press Start 2P", cursive;
+  background-color: #2a75bb;
+  color: white;
+  border: 3px solid #ffcb05;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px #174ea6;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pokemon-btn:hover {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  border-color: #2a75bb;
+  transform: scale(1.05);
+  box-shadow: 0 6px #174ea6;
+}
+
+.pokemon-btn:active {
+  transform: scale(0.98);
+  box-shadow: inset 0 4px #174ea6;
+}
+
+.pokemon-btn:hover {
+  background-color: #2a75bb;
+  color: #ffcb05;
+  transform: scale(1.05);
+  box-shadow: 0 0 6px #fff;
+}

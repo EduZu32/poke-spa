@@ -1,0 +1,139 @@
+/*Title header*/
+.poke-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.4rem; /* Más grande que antes */
+  color: #0a285f;
+  letter-spacing: 1px;
+}
+
+.poke-emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+/*Body title*/
+.pokemon-title {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #f7d851, #fcb045);
+  padding: 1rem 2rem;
+  margin: 2rem auto 1rem;
+  border: 3px solid #ffcb05;
+  border-radius: 12px;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: #213547;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pokemon-title img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Card*/
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+/* ADD*/
+.fav-btn {
+  width: 100%;
+  font-family: "Press Start 2P", cursive;
+  padding: 0.4rem;
+  font-size: 0.65rem;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.fav-btn.add {
+  background: linear-gradient(to bottom, #28a745, #218838); /* verde */
+}
+
+.fav-btn.remove {
+  background: linear-gradient(to bottom, #dc3545, #c82333); /* rojo */
+}
+
+.fav-btn:hover {
+  transform: scale(1.05);
+}
+
+/*Footer*/
+.custom-footer {
+  background: linear-gradient(to right, #fcd800, #ffa500);
+  color: #2a75bb;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  border-top: 4px solid #2a75bb;
+  text-align: center;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  margin-top: auto;
+}
+
+.custom-footer span {
+  background-color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.custom-footer img {
+  width: 20px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+/*Boton de cargar*/
+
+.pokemon-button {
+  font-family: "Press Start 2P", cursive;
+  background-color: #2a75bb;
+  color: white;
+  border: 3px solid #ffcb05;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px #174ea6;
+}
+
+.pokemon-button:hover {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  border-color: #2a75bb;
+  transform: scale(1.05);
+  box-shadow: 0 6px #174ea6;
+}
+
+.pokemon-button:active {
+  transform: scale(0.98);
+  box-shadow: inset 0 4px #174ea6;
+}

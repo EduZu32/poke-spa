@@ -1,0 +1,98 @@
+.pokemon-card {
+  width: 260px;
+  height: 370px;
+  background: linear-gradient(to bottom, #fff6d5, #ffec9e);
+  border: 3px solid #ffcb05;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  padding-bottom: 1rem;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-card .card-header {
+  background: linear-gradient(to right, #ffe14b, #fcd000);
+  color: #2b2b2b;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 1px 1px 0 #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon-card img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.pokemon-card .card-body {
+  text-align: center;
+  padding: 0.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pokemon-card .badge {
+  margin: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.pokemon-card .type-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pokemon-card button {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.55rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #30a14e;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.pokemon-card button:hover {
+  background-color: #218739;
+}
+.type-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: 12px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+  margin-right: 0.3rem;
+  text-transform: capitalize;
+}
+
+.type-icon {
+  font-size: 1rem;
+}
