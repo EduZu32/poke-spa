@@ -14,12 +14,6 @@ Welcome to **EduZu Poké SPA**! A fun and dynamic **Single Page Application (SPA
 
 ---
 
-## 📸 Preview
-
-![Preview Screenshot](https://i.imgur.com/CfKz2kK.png)  
-_A visual example of the design and interaction_
-
----
 
 ## 🚀 Technologies Used
 
