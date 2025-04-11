@@ -1,12 +1,46 @@
-# React + Vite
+# ⚡️ EduZu Poké SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **EduZu Poké SPA**! A fun and dynamic **Single Page Application (SPA)** built with **React + Vite** that lets you explore Pokémon, view their types, and save your favorites as your own Pokédex. ✨
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Explore Pokémon** using data from [PokeAPI](https://pokeapi.co)
+- ❤️ **Add and remove favorite Pokémon**
+- ⚡️ **SPA without page reloads**
+- 📱 **Fully responsive** for mobile and desktop
+- 🌐 **Deployed on Netlify**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+![Preview Screenshot](https://i.imgur.com/CfKz2kK.png)  
+_A visual example of the design and interaction_
+
+---
+
+## 🚀 Technologies Used
+
+- ⚛️ **React**
+- ⚡️ **Vite**
+- 🎨 **Bootstrap 5** + custom styles
+- 🌐 **Netlify** (for deployment)
+- 📦 **PokeAPI** (for fetching Pokémon data)
+
+---
+
+## 🛠️ Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/EduZu32/poke-spa.git
+cd poke-spa
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
